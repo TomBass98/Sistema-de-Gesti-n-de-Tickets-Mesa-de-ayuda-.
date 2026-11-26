@@ -1,0 +1,19 @@
+{
+    "id_ticket_sql": 1,
+    "diagnostico_tecnico": "El equipo se apaga por recalentamiento en el procesador.",
+    "checklist_hardware": {
+        "bateria": "Buen estado",
+        "temperatura": "Alta (92°C)",
+        "disco": "SSD OK"
+    },
+    "repuestos_utilizados": [
+        "Pasta térmica",
+        "Limpieza de ventilador"
+    ],
+    "historial_acciones": [
+        {
+            "fecha": "2026-11-11",
+            "nota": "Equipo recibido y destapado para revisión."
+        }
+    ]
+}
