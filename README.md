@@ -34,7 +34,7 @@ ui/
 ## Requisitos
 
 - Python 3 con Tkinter
-- MySQL (configurado en `localhost:3307`, usuario `root`, sin contraseña)
+- MySQL (el código se conecta por defecto a `localhost:3307` como `root` sin contraseña; se recomienda crear un usuario con contraseña y ponerlo en `config/conexion_mysql.py`)
 - MongoDB (configurado en `localhost:27017`)
 - Paquetes de Python:
 
@@ -72,7 +72,7 @@ pip install mysql-connector-python pymongo
 
 5. Inicia MongoDB. La base `mesa_ayuda_nosql` y la colección `bitacoras_diagnostico` se crean solas al registrar el primer ticket.
 
-6. Si tu MySQL o MongoDB usa otro puerto, usuario o contraseña, edita `config/conexion_mysql.py` y `config/conexion_mongo.py`.
+6. Si tu MySQL o MongoDB usa otro puerto, usuario o contraseña (recomendado: no usar `root` sin contraseña), edita `config/conexion_mysql.py` y `config/conexion_mongo.py`.
 
 ## Uso
 
